@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  app:
+    container_name: ibragimov_shawn_coding_assignment11
+    image: app-dev
+    build:
+      context: .
+      target: development
+    volumes:
+      - ./src:/ibragimov_shawn_site/src
+    ports:
+      - 7775:7775
