@@ -9,4 +9,4 @@ services:
     volumes:
       - ./src:/ibragimov_shawn_site/src
     ports:
-      - 7775:7775
+      - "7775:7775"
